@@ -58,9 +58,6 @@ class LogInViewController: UIViewController {
         let flag = loginBackend(username: account, password: password)
         if flag {
             //login success
-            let secondView = UITabBarController()
-            //跳转
-         //   self.navigationController?.pushViewController(secondView , animated: true)
             self.performSegue(withIdentifier: "tabsSegue", sender: self)
 
         }else{

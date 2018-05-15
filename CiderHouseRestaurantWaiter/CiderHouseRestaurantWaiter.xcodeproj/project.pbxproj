@@ -18,6 +18,9 @@
 		4B24BE6C20AB63AE0032935C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6B20AB63AD0032935C /* Assets.xcassets */; };
 		4B24BE6D20AB63AE0032935C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6B20AB63AD0032935C /* Assets.xcassets */; };
 		4B24BE6E20AB63AE0032935C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6B20AB63AD0032935C /* Assets.xcassets */; };
+		4B24BE7020AB6B8C0032935C /* SettingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */; };
+		4B24BE7120AB6B8C0032935C /* SettingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */; };
+		4B24BE7220AB6B8C0032935C /* SettingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */; };
 		4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E2E20AA2606009321E4 /* jeremy.gif */; };
 		4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
 		4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
@@ -64,6 +67,7 @@
 		4B24BE5F20AB47540032935C /* homeIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeIcon.jpeg; sourceTree = "<group>"; };
 		4B24BE6320AB47EB0032935C /* home.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpeg; sourceTree = "<group>"; };
 		4B24BE6B20AB63AD0032935C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUIViewController.swift; sourceTree = "<group>"; };
 		4BAD4E2E20AA2606009321E4 /* jeremy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jeremy.gif; sourceTree = "<group>"; };
 		4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBackImage.jpeg; sourceTree = "<group>"; };
@@ -127,6 +131,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4B24BE7320AB71DB0032935C /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
 		4BAD4E3A20AA3CB2009321E4 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +174,7 @@
 		4BF79F4220AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */ = {
 			isa = PBXGroup;
 			children = (
+				4B24BE7320AB71DB0032935C /* setting */,
 				4B24BE6B20AB63AD0032935C /* Assets.xcassets */,
 				4BAD4E3A20AA3CB2009321E4 /* image */,
 				4BF79F4320AA1A9900BB4E68 /* AppDelegate.swift */,
@@ -420,6 +433,7 @@
 				4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */,
 				4B24BE5E20AB39E60032935C /* TabsViewController.swift in Sources */,
 				4BF79F4420AA1A9900BB4E68 /* AppDelegate.swift in Sources */,
+				4B24BE7020AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +443,7 @@
 			files = (
 				4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */,
 				4BF79F5C20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift in Sources */,
+				4B24BE7120AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +453,7 @@
 			files = (
 				4BAD4E3520AA27A0009321E4 /* LogInViewController.swift in Sources */,
 				4BF79F6720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift in Sources */,
+				4B24BE7220AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
