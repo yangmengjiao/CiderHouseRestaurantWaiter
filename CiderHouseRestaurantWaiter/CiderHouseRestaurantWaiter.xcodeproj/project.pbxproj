@@ -21,6 +21,12 @@
 		4B24BE7020AB6B8C0032935C /* SettingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */; };
 		4B24BE7120AB6B8C0032935C /* SettingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */; };
 		4B24BE7220AB6B8C0032935C /* SettingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */; };
+		4B24BE7A20AB7B810032935C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7920AB7B810032935C /* HomeViewController.swift */; };
+		4B24BE7B20AB7B810032935C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7920AB7B810032935C /* HomeViewController.swift */; };
+		4B24BE7C20AB7B810032935C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7920AB7B810032935C /* HomeViewController.swift */; };
+		4B24BE7E20AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */; };
+		4B24BE7F20AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */; };
+		4B24BE8020AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */; };
 		4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E2E20AA2606009321E4 /* jeremy.gif */; };
 		4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
 		4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
@@ -68,6 +74,8 @@
 		4B24BE6320AB47EB0032935C /* home.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpeg; sourceTree = "<group>"; };
 		4B24BE6B20AB63AD0032935C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUIViewController.swift; sourceTree = "<group>"; };
+		4B24BE7920AB7B810032935C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUICollectionViewCell.swift; sourceTree = "<group>"; };
 		4BAD4E2E20AA2606009321E4 /* jeremy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jeremy.gif; sourceTree = "<group>"; };
 		4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBackImage.jpeg; sourceTree = "<group>"; };
@@ -139,6 +147,15 @@
 			path = setting;
 			sourceTree = "<group>";
 		};
+		4B24BE7820AB7B730032935C /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4B24BE7920AB7B810032935C /* HomeViewController.swift */,
+				4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 		4BAD4E3A20AA3CB2009321E4 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +191,7 @@
 		4BF79F4220AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */ = {
 			isa = PBXGroup;
 			children = (
+				4B24BE7820AB7B730032935C /* home */,
 				4B24BE7320AB71DB0032935C /* setting */,
 				4B24BE6B20AB63AD0032935C /* Assets.xcassets */,
 				4BAD4E3A20AA3CB2009321E4 /* image */,
@@ -433,6 +451,8 @@
 				4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */,
 				4B24BE5E20AB39E60032935C /* TabsViewController.swift in Sources */,
 				4BF79F4420AA1A9900BB4E68 /* AppDelegate.swift in Sources */,
+				4B24BE7A20AB7B810032935C /* HomeViewController.swift in Sources */,
+				4B24BE7E20AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */,
 				4B24BE7020AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,9 +461,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B24BE7F20AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */,
 				4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */,
 				4BF79F5C20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift in Sources */,
 				4B24BE7120AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
+				4B24BE7B20AB7B810032935C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,9 +473,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B24BE8020AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */,
 				4BAD4E3520AA27A0009321E4 /* LogInViewController.swift in Sources */,
 				4BF79F6720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift in Sources */,
 				4B24BE7220AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
+				4B24BE7C20AB7B810032935C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

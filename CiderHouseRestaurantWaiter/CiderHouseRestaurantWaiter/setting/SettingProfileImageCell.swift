@@ -1,5 +1,5 @@
 //
-//  TabsViewController.swift
+//  File.swift
 //  CiderHouseRestaurantWaiter
 //
 //  Created by mengjiao on 5/15/18.
@@ -8,10 +8,6 @@
 
 import Foundation
 import UIKit
-class TabsViewController: UITabBarController {
-    override func viewDidLoad() {
-        self.selectedIndex = 0
-        
-    }
+class SettingProfileImageCell: UITableViewCell {
+    
 }
-
