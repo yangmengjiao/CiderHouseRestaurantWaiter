@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2892D9F98E75F86FE521CB63 /* Pods_CiderHouseRestaurantWaiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5BC485496A7FFBB428C14A /* Pods_CiderHouseRestaurantWaiter.framework */; };
+		4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E2E20AA2606009321E4 /* jeremy.gif */; };
+		4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
+		4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
+		4BAD4E3520AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
+		4BAD4E4020AA3FEC009321E4 /* loginBackImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */; };
+		4BAD4E4120AA3FEC009321E4 /* loginBackImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */; };
+		4BAD4E4220AA3FEC009321E4 /* loginBackImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */; };
+		4BE0D4B220AA4362000EB471 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0D4B120AA4362000EB471 /* timg.jpeg */; };
+		4BE0D4B320AA4362000EB471 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0D4B120AA4362000EB471 /* timg.jpeg */; };
+		4BE0D4B420AA4362000EB471 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE0D4B120AA4362000EB471 /* timg.jpeg */; };
+		4BF79F4420AA1A9900BB4E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F4320AA1A9900BB4E68 /* AppDelegate.swift */; };
+		4BF79F4620AA1A9900BB4E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F4520AA1A9900BB4E68 /* ViewController.swift */; };
+		4BF79F4920AA1A9900BB4E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF79F4720AA1A9900BB4E68 /* Main.storyboard */; };
+		4BF79F4C20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F4A20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld */; };
+		4BF79F4E20AA1A9B00BB4E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF79F4D20AA1A9B00BB4E68 /* Assets.xcassets */; };
+		4BF79F5120AA1A9B00BB4E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF79F4F20AA1A9B00BB4E68 /* LaunchScreen.storyboard */; };
+		4BF79F5C20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F5B20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift */; };
+		4BF79F6720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F6620AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift */; };
+		696A9F5ADBEB6506ED76D6E4 /* Pods_CiderHouseRestaurantWaiterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24F3BA1237A2C6A4C6F7E31 /* Pods_CiderHouseRestaurantWaiterUITests.framework */; };
+		E78506C123F1E0BAEA427F73 /* Pods_CiderHouseRestaurantWaiterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59998D6A3A1388882C5D07AB /* Pods_CiderHouseRestaurantWaiterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BF79F5820AA1A9C00BB4E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF79F3820AA1A9900BB4E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF79F3F20AA1A9900BB4E68;
+			remoteInfo = CiderHouseRestaurantWaiter;
+		};
+		4BF79F6320AA1A9C00BB4E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF79F3820AA1A9900BB4E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF79F3F20AA1A9900BB4E68;
+			remoteInfo = CiderHouseRestaurantWaiter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5BC485496A7FFBB428C14A /* Pods_CiderHouseRestaurantWaiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiderHouseRestaurantWaiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23970102E2EF4B5381774113 /* Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterUITests/Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46FDCDA79341BC0EF963A7EB /* Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterTests/Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BAD4E2E20AA2606009321E4 /* jeremy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jeremy.gif; sourceTree = "<group>"; };
+		4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBackImage.jpeg; sourceTree = "<group>"; };
+		4BE0D4B120AA4362000EB471 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		4BF79F4020AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiderHouseRestaurantWaiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF79F4320AA1A9900BB4E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BF79F4520AA1A9900BB4E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BF79F4820AA1A9900BB4E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BF79F4B20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CiderHouseRestaurantWaiter.xcdatamodel; sourceTree = "<group>"; };
+		4BF79F4D20AA1A9B00BB4E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BF79F5020AA1A9B00BB4E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BF79F5220AA1A9B00BB4E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF79F5720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiderHouseRestaurantWaiterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF79F5B20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiderHouseRestaurantWaiterTests.swift; sourceTree = "<group>"; };
+		4BF79F5D20AA1A9C00BB4E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF79F6220AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiderHouseRestaurantWaiterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF79F6620AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiderHouseRestaurantWaiterUITests.swift; sourceTree = "<group>"; };
+		4BF79F6820AA1A9C00BB4E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59998D6A3A1388882C5D07AB /* Pods_CiderHouseRestaurantWaiterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiderHouseRestaurantWaiterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24F3BA1237A2C6A4C6F7E31 /* Pods_CiderHouseRestaurantWaiterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiderHouseRestaurantWaiterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC58A02F0482D45CDC780043 /* Pods-CiderHouseRestaurantWaiter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiter/Pods-CiderHouseRestaurantWaiter.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1E812B63268EBB9A88CAE1 /* Pods-CiderHouseRestaurantWaiterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterTests/Pods-CiderHouseRestaurantWaiterTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEB73729453FF886EDADDD9A /* Pods-CiderHouseRestaurantWaiter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiter.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiter/Pods-CiderHouseRestaurantWaiter.release.xcconfig"; sourceTree = "<group>"; };
+		D4B5E12784ED95CB6ABF9208 /* Pods-CiderHouseRestaurantWaiterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterUITests/Pods-CiderHouseRestaurantWaiterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF79F3D20AA1A9900BB4E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2892D9F98E75F86FE521CB63 /* Pods_CiderHouseRestaurantWaiter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF79F5420AA1A9C00BB4E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78506C123F1E0BAEA427F73 /* Pods_CiderHouseRestaurantWaiterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF79F5F20AA1A9C00BB4E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696A9F5ADBEB6506ED76D6E4 /* Pods_CiderHouseRestaurantWaiterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F11766C18436D3DE566A4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C5BC485496A7FFBB428C14A /* Pods_CiderHouseRestaurantWaiter.framework */,
+				59998D6A3A1388882C5D07AB /* Pods_CiderHouseRestaurantWaiterTests.framework */,
+				B24F3BA1237A2C6A4C6F7E31 /* Pods_CiderHouseRestaurantWaiterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BAD4E3A20AA3CB2009321E4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0D4B120AA4362000EB471 /* timg.jpeg */,
+				4BAD4E2E20AA2606009321E4 /* jeremy.gif */,
+				4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		4BF79F3720AA1A9900BB4E68 = {
+			isa = PBXGroup;
+			children = (
+				4BF79F4220AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */,
+				4BF79F5A20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests */,
+				4BF79F6520AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests */,
+				4BF79F4120AA1A9900BB4E68 /* Products */,
+				9B9AED8A4685B6641CD4BAB9 /* Pods */,
+				42F11766C18436D3DE566A4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF79F4120AA1A9900BB4E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF79F4020AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.app */,
+				4BF79F5720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.xctest */,
+				4BF79F6220AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF79F4220AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */ = {
+			isa = PBXGroup;
+			children = (
+				4BAD4E3A20AA3CB2009321E4 /* image */,
+				4BF79F4320AA1A9900BB4E68 /* AppDelegate.swift */,
+				4BF79F4520AA1A9900BB4E68 /* ViewController.swift */,
+				4BF79F4720AA1A9900BB4E68 /* Main.storyboard */,
+				4BF79F4D20AA1A9B00BB4E68 /* Assets.xcassets */,
+				4BF79F4F20AA1A9B00BB4E68 /* LaunchScreen.storyboard */,
+				4BF79F5220AA1A9B00BB4E68 /* Info.plist */,
+				4BF79F4A20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld */,
+				4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */,
+			);
+			path = CiderHouseRestaurantWaiter;
+			sourceTree = "<group>";
+		};
+		4BF79F5A20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF79F5B20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift */,
+				4BF79F5D20AA1A9C00BB4E68 /* Info.plist */,
+			);
+			path = CiderHouseRestaurantWaiterTests;
+			sourceTree = "<group>";
+		};
+		4BF79F6520AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF79F6620AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift */,
+				4BF79F6820AA1A9C00BB4E68 /* Info.plist */,
+			);
+			path = CiderHouseRestaurantWaiterUITests;
+			sourceTree = "<group>";
+		};
+		9B9AED8A4685B6641CD4BAB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC58A02F0482D45CDC780043 /* Pods-CiderHouseRestaurantWaiter.debug.xcconfig */,
+				CEB73729453FF886EDADDD9A /* Pods-CiderHouseRestaurantWaiter.release.xcconfig */,
+				46FDCDA79341BC0EF963A7EB /* Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig */,
+				CE1E812B63268EBB9A88CAE1 /* Pods-CiderHouseRestaurantWaiterTests.release.xcconfig */,
+				D4B5E12784ED95CB6ABF9208 /* Pods-CiderHouseRestaurantWaiterUITests.debug.xcconfig */,
+				23970102E2EF4B5381774113 /* Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF79F3F20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF79F6B20AA1A9C00BB4E68 /* Build configuration list for PBXNativeTarget "CiderHouseRestaurantWaiter" */;
+			buildPhases = (
+				F33255F18B6865BFCAAADD74 /* [CP] Check Pods Manifest.lock */,
+				4BF79F3C20AA1A9900BB4E68 /* Sources */,
+				4BF79F3D20AA1A9900BB4E68 /* Frameworks */,
+				4BF79F3E20AA1A9900BB4E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiderHouseRestaurantWaiter;
+			productName = CiderHouseRestaurantWaiter;
+			productReference = 4BF79F4020AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BF79F5620AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF79F6E20AA1A9C00BB4E68 /* Build configuration list for PBXNativeTarget "CiderHouseRestaurantWaiterTests" */;
+			buildPhases = (
+				C0FF61E5CE7D56E640DF651E /* [CP] Check Pods Manifest.lock */,
+				4BF79F5320AA1A9C00BB4E68 /* Sources */,
+				4BF79F5420AA1A9C00BB4E68 /* Frameworks */,
+				4BF79F5520AA1A9C00BB4E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF79F5920AA1A9C00BB4E68 /* PBXTargetDependency */,
+			);
+			name = CiderHouseRestaurantWaiterTests;
+			productName = CiderHouseRestaurantWaiterTests;
+			productReference = 4BF79F5720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BF79F6120AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF79F7120AA1A9C00BB4E68 /* Build configuration list for PBXNativeTarget "CiderHouseRestaurantWaiterUITests" */;
+			buildPhases = (
+				123F601BBF5BE906BE995452 /* [CP] Check Pods Manifest.lock */,
+				4BF79F5E20AA1A9C00BB4E68 /* Sources */,
+				4BF79F5F20AA1A9C00BB4E68 /* Frameworks */,
+				4BF79F6020AA1A9C00BB4E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF79F6420AA1A9C00BB4E68 /* PBXTargetDependency */,
+			);
+			name = CiderHouseRestaurantWaiterUITests;
+			productName = CiderHouseRestaurantWaiterUITests;
+			productReference = 4BF79F6220AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF79F3820AA1A9900BB4E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mengjiao;
+				TargetAttributes = {
+					4BF79F3F20AA1A9900BB4E68 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4BF79F5620AA1A9C00BB4E68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4BF79F3F20AA1A9900BB4E68;
+					};
+					4BF79F6120AA1A9C00BB4E68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4BF79F3F20AA1A9900BB4E68;
+					};
+				};
+			};
+			buildConfigurationList = 4BF79F3B20AA1A9900BB4E68 /* Build configuration list for PBXProject "CiderHouseRestaurantWaiter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF79F3720AA1A9900BB4E68;
+			productRefGroup = 4BF79F4120AA1A9900BB4E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF79F3F20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */,
+				4BF79F5620AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests */,
+				4BF79F6120AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF79F3E20AA1A9900BB4E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF79F5120AA1A9B00BB4E68 /* LaunchScreen.storyboard in Resources */,
+				4BF79F4E20AA1A9B00BB4E68 /* Assets.xcassets in Resources */,
+				4BE0D4B220AA4362000EB471 /* timg.jpeg in Resources */,
+				4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */,
+				4BAD4E4020AA3FEC009321E4 /* loginBackImage.jpeg in Resources */,
+				4BF79F4920AA1A9900BB4E68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF79F5520AA1A9C00BB4E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE0D4B320AA4362000EB471 /* timg.jpeg in Resources */,
+				4BAD4E4120AA3FEC009321E4 /* loginBackImage.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF79F6020AA1A9C00BB4E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE0D4B420AA4362000EB471 /* timg.jpeg in Resources */,
+				4BAD4E4220AA3FEC009321E4 /* loginBackImage.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123F601BBF5BE906BE995452 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiderHouseRestaurantWaiterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0FF61E5CE7D56E640DF651E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiderHouseRestaurantWaiterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33255F18B6865BFCAAADD74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiderHouseRestaurantWaiter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF79F3C20AA1A9900BB4E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF79F4620AA1A9900BB4E68 /* ViewController.swift in Sources */,
+				4BF79F4C20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld in Sources */,
+				4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */,
+				4BF79F4420AA1A9900BB4E68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF79F5320AA1A9C00BB4E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */,
+				4BF79F5C20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF79F5E20AA1A9C00BB4E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAD4E3520AA27A0009321E4 /* LogInViewController.swift in Sources */,
+				4BF79F6720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF79F5920AA1A9C00BB4E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF79F3F20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */;
+			targetProxy = 4BF79F5820AA1A9C00BB4E68 /* PBXContainerItemProxy */;
+		};
+		4BF79F6420AA1A9C00BB4E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF79F3F20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */;
+			targetProxy = 4BF79F6320AA1A9C00BB4E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BF79F4720AA1A9900BB4E68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF79F4820AA1A9900BB4E68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BF79F4F20AA1A9B00BB4E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF79F5020AA1A9B00BB4E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF79F6920AA1A9C00BB4E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BF79F6A20AA1A9C00BB4E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF79F6C20AA1A9C00BB4E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC58A02F0482D45CDC780043 /* Pods-CiderHouseRestaurantWaiter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PHY97Q9MP;
+				INFOPLIST_FILE = CiderHouseRestaurantWaiter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiao.CiderHouseRestaurantWaiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF79F6D20AA1A9C00BB4E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB73729453FF886EDADDD9A /* Pods-CiderHouseRestaurantWaiter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PHY97Q9MP;
+				INFOPLIST_FILE = CiderHouseRestaurantWaiter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiao.CiderHouseRestaurantWaiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BF79F6F20AA1A9C00BB4E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FDCDA79341BC0EF963A7EB /* Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CiderHouseRestaurantWaiterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiao.CiderHouseRestaurantWaiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiderHouseRestaurantWaiter.app/CiderHouseRestaurantWaiter";
+			};
+			name = Debug;
+		};
+		4BF79F7020AA1A9C00BB4E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1E812B63268EBB9A88CAE1 /* Pods-CiderHouseRestaurantWaiterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CiderHouseRestaurantWaiterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiao.CiderHouseRestaurantWaiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiderHouseRestaurantWaiter.app/CiderHouseRestaurantWaiter";
+			};
+			name = Release;
+		};
+		4BF79F7220AA1A9C00BB4E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B5E12784ED95CB6ABF9208 /* Pods-CiderHouseRestaurantWaiterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CiderHouseRestaurantWaiterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiao.CiderHouseRestaurantWaiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CiderHouseRestaurantWaiter;
+			};
+			name = Debug;
+		};
+		4BF79F7320AA1A9C00BB4E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23970102E2EF4B5381774113 /* Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CiderHouseRestaurantWaiterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiao.CiderHouseRestaurantWaiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CiderHouseRestaurantWaiter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF79F3B20AA1A9900BB4E68 /* Build configuration list for PBXProject "CiderHouseRestaurantWaiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF79F6920AA1A9C00BB4E68 /* Debug */,
+				4BF79F6A20AA1A9C00BB4E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF79F6B20AA1A9C00BB4E68 /* Build configuration list for PBXNativeTarget "CiderHouseRestaurantWaiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF79F6C20AA1A9C00BB4E68 /* Debug */,
+				4BF79F6D20AA1A9C00BB4E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF79F6E20AA1A9C00BB4E68 /* Build configuration list for PBXNativeTarget "CiderHouseRestaurantWaiterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF79F6F20AA1A9C00BB4E68 /* Debug */,
+				4BF79F7020AA1A9C00BB4E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF79F7120AA1A9C00BB4E68 /* Build configuration list for PBXNativeTarget "CiderHouseRestaurantWaiterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF79F7220AA1A9C00BB4E68 /* Debug */,
+				4BF79F7320AA1A9C00BB4E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BF79F4A20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BF79F4B20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodel */,
+			);
+			currentVersion = 4BF79F4B20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodel */;
+			path = CiderHouseRestaurantWaiter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BF79F3820AA1A9900BB4E68 /* Project object */;
+}
