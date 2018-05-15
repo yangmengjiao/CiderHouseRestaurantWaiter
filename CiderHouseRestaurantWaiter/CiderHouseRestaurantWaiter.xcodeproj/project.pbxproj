@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2892D9F98E75F86FE521CB63 /* Pods_CiderHouseRestaurantWaiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5BC485496A7FFBB428C14A /* Pods_CiderHouseRestaurantWaiter.framework */; };
+		4B24BE5E20AB39E60032935C /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE5D20AB39E60032935C /* TabsViewController.swift */; };
+		4B24BE6020AB47550032935C /* homeIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE5F20AB47540032935C /* homeIcon.jpeg */; };
+		4B24BE6120AB47550032935C /* homeIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE5F20AB47540032935C /* homeIcon.jpeg */; };
+		4B24BE6220AB47550032935C /* homeIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE5F20AB47540032935C /* homeIcon.jpeg */; };
+		4B24BE6420AB47EC0032935C /* home.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6320AB47EB0032935C /* home.jpeg */; };
+		4B24BE6520AB47EC0032935C /* home.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6320AB47EB0032935C /* home.jpeg */; };
+		4B24BE6620AB47EC0032935C /* home.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6320AB47EB0032935C /* home.jpeg */; };
+		4B24BE6C20AB63AE0032935C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6B20AB63AD0032935C /* Assets.xcassets */; };
+		4B24BE6D20AB63AE0032935C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6B20AB63AD0032935C /* Assets.xcassets */; };
+		4B24BE6E20AB63AE0032935C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE6B20AB63AD0032935C /* Assets.xcassets */; };
 		4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E2E20AA2606009321E4 /* jeremy.gif */; };
 		4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
 		4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
@@ -22,7 +32,6 @@
 		4BF79F4620AA1A9900BB4E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F4520AA1A9900BB4E68 /* ViewController.swift */; };
 		4BF79F4920AA1A9900BB4E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF79F4720AA1A9900BB4E68 /* Main.storyboard */; };
 		4BF79F4C20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F4A20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld */; };
-		4BF79F4E20AA1A9B00BB4E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF79F4D20AA1A9B00BB4E68 /* Assets.xcassets */; };
 		4BF79F5120AA1A9B00BB4E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF79F4F20AA1A9B00BB4E68 /* LaunchScreen.storyboard */; };
 		4BF79F5C20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F5B20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift */; };
 		4BF79F6720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF79F6620AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift */; };
@@ -51,6 +60,10 @@
 		0C5BC485496A7FFBB428C14A /* Pods_CiderHouseRestaurantWaiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiderHouseRestaurantWaiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23970102E2EF4B5381774113 /* Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterUITests/Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		46FDCDA79341BC0EF963A7EB /* Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterTests/Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B24BE5D20AB39E60032935C /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
+		4B24BE5F20AB47540032935C /* homeIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeIcon.jpeg; sourceTree = "<group>"; };
+		4B24BE6320AB47EB0032935C /* home.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpeg; sourceTree = "<group>"; };
+		4B24BE6B20AB63AD0032935C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BAD4E2E20AA2606009321E4 /* jeremy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jeremy.gif; sourceTree = "<group>"; };
 		4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBackImage.jpeg; sourceTree = "<group>"; };
@@ -60,7 +73,6 @@
 		4BF79F4520AA1A9900BB4E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BF79F4820AA1A9900BB4E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BF79F4B20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CiderHouseRestaurantWaiter.xcdatamodel; sourceTree = "<group>"; };
-		4BF79F4D20AA1A9B00BB4E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BF79F5020AA1A9B00BB4E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF79F5220AA1A9B00BB4E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF79F5720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiderHouseRestaurantWaiterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,15 +162,18 @@
 		4BF79F4220AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */ = {
 			isa = PBXGroup;
 			children = (
+				4B24BE6B20AB63AD0032935C /* Assets.xcassets */,
 				4BAD4E3A20AA3CB2009321E4 /* image */,
 				4BF79F4320AA1A9900BB4E68 /* AppDelegate.swift */,
 				4BF79F4520AA1A9900BB4E68 /* ViewController.swift */,
 				4BF79F4720AA1A9900BB4E68 /* Main.storyboard */,
-				4BF79F4D20AA1A9B00BB4E68 /* Assets.xcassets */,
+				4B24BE6320AB47EB0032935C /* home.jpeg */,
+				4B24BE5F20AB47540032935C /* homeIcon.jpeg */,
 				4BF79F4F20AA1A9B00BB4E68 /* LaunchScreen.storyboard */,
 				4BF79F5220AA1A9B00BB4E68 /* Info.plist */,
 				4BF79F4A20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld */,
 				4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */,
+				4B24BE5D20AB39E60032935C /* TabsViewController.swift */,
 			);
 			path = CiderHouseRestaurantWaiter;
 			sourceTree = "<group>";
@@ -302,11 +317,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BF79F5120AA1A9B00BB4E68 /* LaunchScreen.storyboard in Resources */,
-				4BF79F4E20AA1A9B00BB4E68 /* Assets.xcassets in Resources */,
 				4BE0D4B220AA4362000EB471 /* timg.jpeg in Resources */,
 				4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */,
 				4BAD4E4020AA3FEC009321E4 /* loginBackImage.jpeg in Resources */,
 				4BF79F4920AA1A9900BB4E68 /* Main.storyboard in Resources */,
+				4B24BE6420AB47EC0032935C /* home.jpeg in Resources */,
+				4B24BE6C20AB63AE0032935C /* Assets.xcassets in Resources */,
+				4B24BE6020AB47550032935C /* homeIcon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +333,9 @@
 			files = (
 				4BE0D4B320AA4362000EB471 /* timg.jpeg in Resources */,
 				4BAD4E4120AA3FEC009321E4 /* loginBackImage.jpeg in Resources */,
+				4B24BE6520AB47EC0032935C /* home.jpeg in Resources */,
+				4B24BE6120AB47550032935C /* homeIcon.jpeg in Resources */,
+				4B24BE6D20AB63AE0032935C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +345,9 @@
 			files = (
 				4BE0D4B420AA4362000EB471 /* timg.jpeg in Resources */,
 				4BAD4E4220AA3FEC009321E4 /* loginBackImage.jpeg in Resources */,
+				4B24BE6620AB47EC0032935C /* home.jpeg in Resources */,
+				4B24BE6220AB47550032935C /* homeIcon.jpeg in Resources */,
+				4B24BE6E20AB63AE0032935C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +418,7 @@
 				4BF79F4620AA1A9900BB4E68 /* ViewController.swift in Sources */,
 				4BF79F4C20AA1A9900BB4E68 /* CiderHouseRestaurantWaiter.xcdatamodeld in Sources */,
 				4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */,
+				4B24BE5E20AB39E60032935C /* TabsViewController.swift in Sources */,
 				4BF79F4420AA1A9900BB4E68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

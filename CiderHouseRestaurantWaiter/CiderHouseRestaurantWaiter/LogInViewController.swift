@@ -58,6 +58,11 @@ class LogInViewController: UIViewController {
         let flag = loginBackend(username: account, password: password)
         if flag {
             //login success
+            let secondView = UITabBarController()
+            //跳转
+         //   self.navigationController?.pushViewController(secondView , animated: true)
+            self.performSegue(withIdentifier: "tabsSegue", sender: self)
+
         }else{
             errorLabel.isHidden = false
             errorLabel.text = "account or password is not correct! "
@@ -65,7 +70,7 @@ class LogInViewController: UIViewController {
     }
     
     private func loginBackend(username: String?, password: String?) -> Bool{
-        return false
+        return true
     }
 }
 
@@ -87,7 +92,6 @@ extension LogInViewController:UITextFieldDelegate {
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         //view弹起跟随键盘，高可根据自己定义
-        
         UIView.animate(withDuration: 0.4, animations: {
             
             self.view.frame.origin.y = -120
