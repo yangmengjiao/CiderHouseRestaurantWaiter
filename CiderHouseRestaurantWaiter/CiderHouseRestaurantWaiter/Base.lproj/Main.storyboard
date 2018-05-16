@@ -256,13 +256,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vIL-PF-lLX">
-                                <rect key="frame" x="0.0" y="134" width="375" height="484"/>
+                                <rect key="frame" x="0.0" y="178" width="375" height="440"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="e0H-cY-y8G">
                                     <size key="itemSize" width="80" height="80"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="32" minY="32" maxX="32" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="32" minY="32" maxX="32" maxY="32"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bPy-Ce-tIS" customClass="CustomUICollectionViewCell" customModule="CiderHouseRestaurantWaiter" customModuleProvider="target">
@@ -276,7 +276,7 @@
                                 </cells>
                             </collectionView>
                             <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="upt-Zm-fCY">
-                                <rect key="frame" x="32" y="52" width="343" height="32"/>
+                                <rect key="frame" x="32" y="96" width="343" height="32"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U04-El-aYK">
                                         <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -344,13 +344,46 @@
                         <viewLayoutGuide key="safeArea" id="yCj-d6-lKH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" landscapeImage="home" selectedImage="home" id="nlU-FD-gqa"/>
+                    <navigationItem key="navigationItem" id="Q1F-WB-p03"/>
                     <connections>
                         <outlet property="myCollectionView" destination="vIL-PF-lLX" id="QUZ-Br-reL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n26-MQ-PJB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2700" y="-545.57721139430294"/>
+            <point key="canvasLocation" x="4220" y="-888"/>
+        </scene>
+        <!--Order View Controller-->
+        <scene sceneID="Ujd-Vv-LpC">
+            <objects>
+                <viewController restorationIdentifier="myViewController1" storyboardIdentifier="myViewController1" hidesBottomBarWhenPushed="YES" id="TeE-5e-Bf3" customClass="OrderViewController" customModule="CiderHouseRestaurantWaiter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gNf-BQ-Ayz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nz9-7z-T3A"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S76-mY-sbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5647" y="2"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="1xa-F6-le3">
+            <objects>
+                <navigationController id="lt3-c2-LPX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="cRX-F8-6f5"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MpG-M8-IIh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ye2-uf-52A" kind="relationship" relationship="rootViewController" id="Mst-8c-jXI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NNE-Tu-FL0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3465" y="-616"/>
         </scene>
         <!--Tabs View Controller-->
         <scene sceneID="TI4-10-1pL">
@@ -363,13 +396,42 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="ye2-uf-52A" kind="relationship" relationship="viewControllers" id="VMy-Zf-URR"/>
-                        <segue destination="Le3-0j-xKG" kind="relationship" relationship="viewControllers" id="iuR-UY-Gtt"/>
+                        <segue destination="lt3-c2-LPX" kind="relationship" relationship="viewControllers" id="in7-qr-eHB"/>
+                        <segue destination="Le3-0j-xKG" kind="relationship" relationship="viewControllers" id="yoC-18-E9Q"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vr-ma-bce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1743" y="-212"/>
+        </scene>
+        <!--Order View Controller-->
+        <scene sceneID="H5t-RT-TRl">
+            <objects>
+                <viewController restorationIdentifier="myViewController" storyboardIdentifier="myViewController" hidesBottomBarWhenPushed="YES" id="kXg-iI-pF1" customClass="OrderViewController" customModule="CiderHouseRestaurantWaiter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jw8-4G-6VS"/>
+                        <viewControllerLayoutGuide type="bottom" id="0ZE-vL-lvi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Vp-5P-LmL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="929-me-A8n" customClass="MIOButton" customModule="MIOButtonFramework">
+                                <rect key="frame" x="67" y="506" width="240" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8912609816" green="0.35455638169999998" blue="0.39968371390000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="7eq-bn-Eeu"/>
+                    </view>
+                    <connections>
+                        <outlet property="numberButton" destination="929-me-A8n" id="lUS-7d-YDS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RZQ-Wq-06N" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6380" y="-743"/>
         </scene>
     </scenes>
     <resources>

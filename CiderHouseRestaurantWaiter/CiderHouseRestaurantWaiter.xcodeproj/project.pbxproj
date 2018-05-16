@@ -27,6 +27,11 @@
 		4B24BE7E20AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */; };
 		4B24BE7F20AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */; };
 		4B24BE8020AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */; };
+		4B24BE8320AC764E0032935C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE8220AC764E0032935C /* OrderViewController.swift */; };
+		4B24BE8420AC764E0032935C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE8220AC764E0032935C /* OrderViewController.swift */; };
+		4B24BE8520AC764E0032935C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE8220AC764E0032935C /* OrderViewController.swift */; };
+		4B63E12B20ACA0EC009A286F /* MIOButtonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B63E12A20ACA0EB009A286F /* MIOButtonFramework.framework */; };
+		4B63E12C20ACA0EC009A286F /* MIOButtonFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B63E12A20ACA0EB009A286F /* MIOButtonFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E2E20AA2606009321E4 /* jeremy.gif */; };
 		4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
 		4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
@@ -65,6 +70,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4BA8828320AC983C00FF813A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4B63E12C20ACA0EC009A286F /* MIOButtonFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0C5BC485496A7FFBB428C14A /* Pods_CiderHouseRestaurantWaiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiderHouseRestaurantWaiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23970102E2EF4B5381774113 /* Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterUITests/Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +95,8 @@
 		4B24BE6F20AB6B8C0032935C /* SettingUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUIViewController.swift; sourceTree = "<group>"; };
 		4B24BE7920AB7B810032935C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUICollectionViewCell.swift; sourceTree = "<group>"; };
+		4B24BE8220AC764E0032935C /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		4B63E12A20ACA0EB009A286F /* MIOButtonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MIOButtonFramework.framework; sourceTree = "<group>"; };
 		4BAD4E2E20AA2606009321E4 /* jeremy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jeremy.gif; sourceTree = "<group>"; };
 		4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBackImage.jpeg; sourceTree = "<group>"; };
@@ -107,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2892D9F98E75F86FE521CB63 /* Pods_CiderHouseRestaurantWaiter.framework in Frameworks */,
+				4B63E12B20ACA0EC009A286F /* MIOButtonFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +174,7 @@
 			children = (
 				4B24BE7920AB7B810032935C /* HomeViewController.swift */,
 				4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */,
+				4B24BE8220AC764E0032935C /* OrderViewController.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -169,6 +192,7 @@
 		4BF79F3720AA1A9900BB4E68 = {
 			isa = PBXGroup;
 			children = (
+				4B63E12A20ACA0EB009A286F /* MIOButtonFramework.framework */,
 				4BF79F4220AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */,
 				4BF79F5A20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests */,
 				4BF79F6520AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests */,
@@ -251,6 +275,7 @@
 				4BF79F3C20AA1A9900BB4E68 /* Sources */,
 				4BF79F3D20AA1A9900BB4E68 /* Frameworks */,
 				4BF79F3E20AA1A9900BB4E68 /* Resources */,
+				4BA8828320AC983C00FF813A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -454,6 +479,7 @@
 				4B24BE7A20AB7B810032935C /* HomeViewController.swift in Sources */,
 				4B24BE7E20AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */,
 				4B24BE7020AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
+				4B24BE8320AC764E0032935C /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +492,7 @@
 				4BF79F5C20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests.swift in Sources */,
 				4B24BE7120AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
 				4B24BE7B20AB7B810032935C /* HomeViewController.swift in Sources */,
+				4B24BE8420AC764E0032935C /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +505,7 @@
 				4BF79F6720AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests.swift in Sources */,
 				4B24BE7220AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
 				4B24BE7C20AB7B810032935C /* HomeViewController.swift in Sources */,
+				4B24BE8520AC764E0032935C /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +665,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PHY97Q9MP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CiderHouseRestaurantWaiter",
+				);
 				INFOPLIST_FILE = CiderHouseRestaurantWaiter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -657,6 +690,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PHY97Q9MP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CiderHouseRestaurantWaiter",
+				);
 				INFOPLIST_FILE = CiderHouseRestaurantWaiter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -677,6 +715,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CiderHouseRestaurantWaiter",
+				);
 				INFOPLIST_FILE = CiderHouseRestaurantWaiterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -698,6 +741,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CiderHouseRestaurantWaiter",
+				);
 				INFOPLIST_FILE = CiderHouseRestaurantWaiterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -718,6 +766,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CiderHouseRestaurantWaiter",
+				);
 				INFOPLIST_FILE = CiderHouseRestaurantWaiterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -738,6 +791,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CiderHouseRestaurantWaiter",
+				);
 				INFOPLIST_FILE = CiderHouseRestaurantWaiterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,11 @@
+framework module MIOButtonFramework {
+  umbrella header "MIOButtonFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MIOButtonFramework.Swift {
+    header "MIOButtonFramework-Swift.h"
+    requires objc
+}
