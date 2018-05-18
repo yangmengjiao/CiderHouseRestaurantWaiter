@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2892D9F98E75F86FE521CB63 /* Pods_CiderHouseRestaurantWaiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5BC485496A7FFBB428C14A /* Pods_CiderHouseRestaurantWaiter.framework */; };
+		4B0D3DE520AE172300D768C8 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3DE420AE172300D768C8 /* URLHelper.swift */; };
+		4B0D3DE720AE1C5600D768C8 /* CustomOrderMealTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D3DE620AE1C5600D768C8 /* CustomOrderMealTabelViewCell.swift */; };
 		4B24BE5E20AB39E60032935C /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE5D20AB39E60032935C /* TabsViewController.swift */; };
 		4B24BE6020AB47550032935C /* homeIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE5F20AB47540032935C /* homeIcon.jpeg */; };
 		4B24BE6120AB47550032935C /* homeIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B24BE5F20AB47540032935C /* homeIcon.jpeg */; };
@@ -30,8 +32,9 @@
 		4B24BE8320AC764E0032935C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE8220AC764E0032935C /* OrderViewController.swift */; };
 		4B24BE8420AC764E0032935C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE8220AC764E0032935C /* OrderViewController.swift */; };
 		4B24BE8520AC764E0032935C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24BE8220AC764E0032935C /* OrderViewController.swift */; };
-		4B63E12B20ACA0EC009A286F /* MIOButtonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B63E12A20ACA0EB009A286F /* MIOButtonFramework.framework */; };
-		4B63E12C20ACA0EC009A286F /* MIOButtonFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B63E12A20ACA0EB009A286F /* MIOButtonFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B8EEBCF20AE46110064FFE0 /* hamberger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B8EEBCE20AE46100064FFE0 /* hamberger.jpg */; };
+		4B8EEC0D20AE612D0064FFE0 /* MIOButtonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8EEC0C20AE612D0064FFE0 /* MIOButtonFramework.framework */; };
+		4B8EEC0E20AE612D0064FFE0 /* MIOButtonFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8EEC0C20AE612D0064FFE0 /* MIOButtonFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD4E2E20AA2606009321E4 /* jeremy.gif */; };
 		4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
 		4BAD4E3420AA27A0009321E4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */; };
@@ -71,13 +74,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4BA8828320AC983C00FF813A /* Embed Frameworks */ = {
+		4B8EEC0520AE5C4F0064FFE0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4B63E12C20ACA0EC009A286F /* MIOButtonFramework.framework in Embed Frameworks */,
+				4B8EEC0E20AE612D0064FFE0 /* MIOButtonFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +91,8 @@
 		0C5BC485496A7FFBB428C14A /* Pods_CiderHouseRestaurantWaiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CiderHouseRestaurantWaiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23970102E2EF4B5381774113 /* Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterUITests/Pods-CiderHouseRestaurantWaiterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		46FDCDA79341BC0EF963A7EB /* Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiderHouseRestaurantWaiterTests/Pods-CiderHouseRestaurantWaiterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B0D3DE420AE172300D768C8 /* URLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
+		4B0D3DE620AE1C5600D768C8 /* CustomOrderMealTabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOrderMealTabelViewCell.swift; sourceTree = "<group>"; };
 		4B24BE5D20AB39E60032935C /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
 		4B24BE5F20AB47540032935C /* homeIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeIcon.jpeg; sourceTree = "<group>"; };
 		4B24BE6320AB47EB0032935C /* home.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpeg; sourceTree = "<group>"; };
@@ -96,7 +101,8 @@
 		4B24BE7920AB7B810032935C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUICollectionViewCell.swift; sourceTree = "<group>"; };
 		4B24BE8220AC764E0032935C /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
-		4B63E12A20ACA0EB009A286F /* MIOButtonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MIOButtonFramework.framework; sourceTree = "<group>"; };
+		4B8EEBCE20AE46100064FFE0 /* hamberger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamberger.jpg; sourceTree = "<group>"; };
+		4B8EEC0C20AE612D0064FFE0 /* MIOButtonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MIOButtonFramework.framework; sourceTree = "<group>"; };
 		4BAD4E2E20AA2606009321E4 /* jeremy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jeremy.gif; sourceTree = "<group>"; };
 		4BAD4E3220AA27A0009321E4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBackImage.jpeg; sourceTree = "<group>"; };
@@ -128,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2892D9F98E75F86FE521CB63 /* Pods_CiderHouseRestaurantWaiter.framework in Frameworks */,
-				4B63E12B20ACA0EC009A286F /* MIOButtonFramework.framework in Frameworks */,
+				4B8EEC0D20AE612D0064FFE0 /* MIOButtonFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +167,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4B0D3DE320AE171200D768C8 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				4B0D3DE420AE172300D768C8 /* URLHelper.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
 		4B24BE7320AB71DB0032935C /* setting */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +189,7 @@
 				4B24BE7920AB7B810032935C /* HomeViewController.swift */,
 				4B24BE7D20AB7E540032935C /* CustomUICollectionViewCell.swift */,
 				4B24BE8220AC764E0032935C /* OrderViewController.swift */,
+				4B0D3DE620AE1C5600D768C8 /* CustomOrderMealTabelViewCell.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -182,6 +197,7 @@
 		4BAD4E3A20AA3CB2009321E4 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				4B8EEBCE20AE46100064FFE0 /* hamberger.jpg */,
 				4BE0D4B120AA4362000EB471 /* timg.jpeg */,
 				4BAD4E2E20AA2606009321E4 /* jeremy.gif */,
 				4BAD4E3F20AA3FEC009321E4 /* loginBackImage.jpeg */,
@@ -192,7 +208,7 @@
 		4BF79F3720AA1A9900BB4E68 = {
 			isa = PBXGroup;
 			children = (
-				4B63E12A20ACA0EB009A286F /* MIOButtonFramework.framework */,
+				4B8EEC0C20AE612D0064FFE0 /* MIOButtonFramework.framework */,
 				4BF79F4220AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */,
 				4BF79F5A20AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterTests */,
 				4BF79F6520AA1A9C00BB4E68 /* CiderHouseRestaurantWaiterUITests */,
@@ -215,6 +231,7 @@
 		4BF79F4220AA1A9900BB4E68 /* CiderHouseRestaurantWaiter */ = {
 			isa = PBXGroup;
 			children = (
+				4B0D3DE320AE171200D768C8 /* helper */,
 				4B24BE7820AB7B730032935C /* home */,
 				4B24BE7320AB71DB0032935C /* setting */,
 				4B24BE6B20AB63AD0032935C /* Assets.xcassets */,
@@ -275,7 +292,7 @@
 				4BF79F3C20AA1A9900BB4E68 /* Sources */,
 				4BF79F3D20AA1A9900BB4E68 /* Frameworks */,
 				4BF79F3E20AA1A9900BB4E68 /* Resources */,
-				4BA8828320AC983C00FF813A /* Embed Frameworks */,
+				4B8EEC0520AE5C4F0064FFE0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -372,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8EEBCF20AE46110064FFE0 /* hamberger.jpg in Resources */,
 				4BF79F5120AA1A9B00BB4E68 /* LaunchScreen.storyboard in Resources */,
 				4BE0D4B220AA4362000EB471 /* timg.jpeg in Resources */,
 				4BAD4E2F20AA2606009321E4 /* jeremy.gif in Resources */,
@@ -476,10 +494,12 @@
 				4BAD4E3320AA27A0009321E4 /* LogInViewController.swift in Sources */,
 				4B24BE5E20AB39E60032935C /* TabsViewController.swift in Sources */,
 				4BF79F4420AA1A9900BB4E68 /* AppDelegate.swift in Sources */,
+				4B0D3DE520AE172300D768C8 /* URLHelper.swift in Sources */,
 				4B24BE7A20AB7B810032935C /* HomeViewController.swift in Sources */,
 				4B24BE7E20AB7E540032935C /* CustomUICollectionViewCell.swift in Sources */,
 				4B24BE7020AB6B8C0032935C /* SettingUIViewController.swift in Sources */,
 				4B24BE8320AC764E0032935C /* OrderViewController.swift in Sources */,
+				4B0D3DE720AE1C5600D768C8 /* CustomOrderMealTabelViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

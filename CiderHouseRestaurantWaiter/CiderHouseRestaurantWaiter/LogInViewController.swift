@@ -18,6 +18,12 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var name: UILabel!
     
+    struct UserPost: Codable {
+        let UserName: String
+        let Password: String
+    }
+
+    
     @IBOutlet weak var passwordLabel: UILabel!
     override func viewDidLoad() {
         textFields.append(usernameTextField)
@@ -52,23 +58,103 @@ class LogInViewController: UIViewController {
     
     
     @IBAction func touchLoginButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "tabsSegue", sender: self)
         let account = usernameTextField.text
         let password = passwordTextField.text
+//        login(with: UserPost(UserName: account!, Password: password!)) { (error) in
+//            print(error?.localizedDescription)
+//        }
         
-        let flag = loginBackend(username: account, password: password)
-        if flag {
-            //login success
-            self.performSegue(withIdentifier: "tabsSegue", sender: self)
-
-        }else{
-            errorLabel.isHidden = false
-            errorLabel.text = "account or password is not correct! "
-        }
+        
+        
+//        let flag = loginBackend(username: account, password: password)
+//        if flag {
+//            //login success
+//            self.performSegue(withIdentifier: "tabsSegue", sender: self)
+//
+//        }else{
+//            errorLabel.isHidden = false
+//            errorLabel.text = "account or password is not correct! "
+//        }
     }
     
     private func loginBackend(username: String?, password: String?) -> Bool{
         return true
     }
+    
+    
+    
+    //post with parameter demo: login
+    func login(with userpost: UserPost, completion:((Error?) -> Void)?) {
+        
+        guard let url = URLHelper.sharedInstance.getLoginURL() else { fatalError("Could not create URL from components") }
+        
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        
+        // will be JSON encoded
+        var headers = request.allHTTPHeaderFields ?? [:]
+        headers["Content-Type"] = "application/json"
+        request.allHTTPHeaderFields = headers
+        
+        //let's encode out Post struct into JSON data...
+        let encoder = JSONEncoder()
+        do {
+            let jsonData = try encoder.encode(userpost)
+            request.httpBody = jsonData
+            let aa = String(data: request.httpBody!, encoding: .utf8)
+            print("jsonData: ",aa ?? "no body data")
+        } catch {
+            completion?(error)
+        }
+        
+        // Create and run a URLSession data task with our JSON encoded POST request
+        let config = URLSessionConfiguration.default
+        let session = URLSession(configuration: config)
+        let task = session.dataTask(with: request) { (responseData, response, responseError) in
+            guard responseError == nil else {
+                completion?(responseError!)
+                return
+            }
+            
+            if let httpResponse = response as? HTTPURLResponse {
+                if httpResponse.statusCode == 200 {
+                    //todo :
+//                    dispatch_async(dispatch_get_main_queue(), ^{
+//                        self.performSegue(withIdentifier: "tabsSegue", sender: self)
+//                        });
+//                    DispatchQueue.sync(DispatchQueue.main){
+//                        self.performSegue(withIdentifier: "tabsSegue", sender: self)
+//                    }
+                    DispatchQueue.main.sync {
+                        self.performSegue(withIdentifier: "tabsSegue", sender: self)
+                    }
+                   
+                }else{
+                    DispatchQueue.main.async {
+                        self.errorLabel.isHidden = false
+                        self.errorLabel.text = "account or password is not correct! "
+                    }
+                   
+                }
+            }
+            
+            if let httpResponse = response as? HTTPURLResponse {
+                
+                print("error \(httpResponse.statusCode)")
+            }
+            
+            if let data = responseData, let utf8Representation = String(data: data, encoding: .utf8) {
+                
+                print("response: ", utf8Representation)
+            } else {
+                print("no readable data received in response")
+            }
+        }
+        task.resume()
+    }
+    
+    
 }
 
 extension LogInViewController:UITextFieldDelegate {

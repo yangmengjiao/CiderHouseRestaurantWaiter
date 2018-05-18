@@ -39,7 +39,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let sb = UIStoryboard(name: "Main", bundle:nil)
-        let vc = sb.instantiateViewController(withIdentifier: "myViewController") as UIViewController
+        let vc = sb.instantiateViewController(withIdentifier: "orderViewCtrl") as UIViewController
         self.navigationController?.pushViewController(vc, animated: true)
         print("Num: \(indexPath.row)")
         

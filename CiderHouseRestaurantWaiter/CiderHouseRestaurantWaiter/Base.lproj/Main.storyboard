@@ -433,8 +433,87 @@
             </objects>
             <point key="canvasLocation" x="6380" y="-743"/>
         </scene>
+        <!--Order View Controller-->
+        <scene sceneID="CuT-v7-Nei">
+            <objects>
+                <viewController restorationIdentifier="orderViewCtrl" storyboardIdentifier="orderViewCtrl" id="hRr-jG-2Xd" customClass="OrderViewController" customModule="CiderHouseRestaurantWaiter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ns4-pr-nDf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h7h-kN-Fvm">
+                                <rect key="frame" x="30" y="20" width="329" height="627"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCell" rowHeight="120" id="0Kc-3a-sgu" customClass="CustomOrderMealTabelViewCell" customModule="CiderHouseRestaurantWaiter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="329" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Kc-3a-sgu" id="zb8-DP-yOC">
+                                            <rect key="frame" x="0.0" y="0.0" width="329" height="119.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hambergr  1$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6H-un-hlH">
+                                                    <rect key="frame" x="113" y="39" width="102" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hamberger.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YLu-Xt-klV">
+                                                    <rect key="frame" x="0.0" y="8" width="104" height="103.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="104" id="APt-id-3qu"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Kl-sO-vDu" customClass="MIOButton" customModule="MIOButtonFramework">
+                                                    <rect key="frame" x="223" y="39" width="103" height="36"/>
+                                                    <color key="backgroundColor" red="0.99157366069999997" green="0.91127232140000003" blue="0.62826450889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="36" id="4D9-7L-Asb"/>
+                                                        <constraint firstAttribute="width" constant="103" id="hH0-Pa-EJ0"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="2Kl-sO-vDu" firstAttribute="leading" secondItem="zb8-DP-yOC" secondAttribute="leadingMargin" constant="208" id="5ON-Ch-9ha"/>
+                                                <constraint firstItem="YLu-Xt-klV" firstAttribute="top" secondItem="zb8-DP-yOC" secondAttribute="top" constant="8" id="UAk-NJ-efu"/>
+                                                <constraint firstAttribute="bottom" secondItem="YLu-Xt-klV" secondAttribute="bottom" constant="8" id="XdD-vS-1EP"/>
+                                                <constraint firstItem="2Kl-sO-vDu" firstAttribute="top" secondItem="zb8-DP-yOC" secondAttribute="topMargin" constant="28" id="e3v-6z-MKI"/>
+                                                <constraint firstItem="YLu-Xt-klV" firstAttribute="leading" secondItem="zb8-DP-yOC" secondAttribute="leading" id="mxF-Gk-NYc"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="2Kl-sO-vDu" secondAttribute="bottom" constant="34" id="vZI-ry-3DJ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="orderNumberButton" destination="2Kl-sO-vDu" id="X2L-53-z8N"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="hRr-jG-2Xd" id="snY-Au-ZxF"/>
+                                    <outlet property="delegate" destination="hRr-jG-2Xd" id="lt7-ib-dkS"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h7h-kN-Fvm" firstAttribute="leading" secondItem="ZPv-xg-Dp4" secondAttribute="leading" constant="30" id="9LH-wi-H5E"/>
+                            <constraint firstItem="ZPv-xg-Dp4" firstAttribute="bottom" secondItem="h7h-kN-Fvm" secondAttribute="bottom" constant="20" id="AwC-ks-qpz"/>
+                            <constraint firstItem="ZPv-xg-Dp4" firstAttribute="trailing" secondItem="h7h-kN-Fvm" secondAttribute="trailing" constant="16" id="RTY-tT-zt4"/>
+                            <constraint firstItem="h7h-kN-Fvm" firstAttribute="top" secondItem="ZPv-xg-Dp4" secondAttribute="top" id="aE9-Ir-JAh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZPv-xg-Dp4"/>
+                    </view>
+                    <connections>
+                        <outlet property="table" destination="h7h-kN-Fvm" id="Zaj-En-8o0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uYj-Qv-YMI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5482.3999999999996" y="566.26686656671666"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="hamberger.jpg" width="560" height="315"/>
         <image name="home" width="32" height="32"/>
         <image name="loginBackImage.jpeg" width="684" height="508"/>
         <image name="my48" width="48" height="48"/>
